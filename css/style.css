@@ -1,0 +1,87 @@
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    .neomorph{
+      border: none !important;
+      border-radius: 10px;
+      box-shadow:0px 0px 17px 4px rgb(199 199 199 / 33%);
+    }
+    
+    .grid-centering{
+      height: 100%;
+      display: grid;
+      place-items: center;
+    }
+    
+    @media only screen and (min-width:798px) {
+    .grid-centering{
+      height: 92vh;
+      display: grid;
+      place-items: center;
+    }
+    }
+    
+    .reveal {
+      animation: fade-down 1.5s;
+        }
+        
+      
+        @keyframes fade-down {
+          from {
+              opacity: 0;
+              transform: translateY(-70%);
+              transition: opacity 1s ease-out, transform 1s ease-out;
+            }
+          
+            to {
+              opacity: 1;
+              transform: translateY(0);
+              
+            }
+        }
+    .nav-bg-custom{
+      background-color: blue;
+    }
+
+    .footer-bs{
+      position: fixed;
+      width: 100%;
+      min-height: 320px;
+      bottom: 0;
+      left: 0;
+  }
+
+  .bg-bluer{
+    background-color: #1e235a;
+  }
+
+  .dd-card{
+    border: #212529 solid !important;
+    color: white !important;
+    border-radius: 15px !important;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+  }
+  
+
+  .main-bg{
+    background-color: #212529;
+
+  }
+
+  .card-trans, .table, .navbar{
+    background-color:#2b3035 !important;
+        color: white !important;
+  }
+  
+.dropdown-menu-dark{
+  background-color:#2b3035 !important;
+  color: white !important;
+}
+
+.form-select{
+  background-image: url('/assets/images/chevron-down.svg') !important;
+}
